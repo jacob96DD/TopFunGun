@@ -170,8 +170,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fb9d73643350b5d43830163359be603e, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: cbaf3cc0be4ad4c2ab21f988fe420abd, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -378,8 +378,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ab9199cbee4c1454b807d5ad8271b945, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: 982cb71308d714efa82d8aeb97e6bf5d, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 1399943449}
   - component: {fileID: 1399943450}
   m_Layer: 0
-  m_Name: Revolver
+  m_Name: Shotgun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -686,7 +686,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f57d02d911e68804e8b310a26c9c4020, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8afed7fbd9fb7b245a647f6551b21287, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -712,7 +712,7 @@ MonoBehaviour:
   RevolverSound: {fileID: 207914359}
   ReloadSound: {fileID: 976118979}
   IsAvailable: 1
-  CooldownDuration: 1
+  CooldownDuration: 3
 --- !u!81 &1399943450
 AudioListener:
   m_ObjectHideFlags: 0
