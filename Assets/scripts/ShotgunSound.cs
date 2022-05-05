@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Revolversound : MonoBehaviour
+public class ShotgunSound : MonoBehaviour
 {
     public AudioSource RevolverSound;
     public AudioSource ReloadSound;
     double counter = 0;
     public bool IsAvailable = true;
-    public float CooldownDuration = 3.0f;
+    public float CooldownDuration = 1.0f;
 
     bool shoot = false;
     bool reload = false;
